@@ -1,0 +1,29 @@
+print("Welcome to the game!!")
+
+x = int(input("Enter any two digit number: "))
+
+print("Your total according to my guess is", x + 198)
+
+y = int(input("Enter the 2nd number: "))
+
+for i in range(3):
+
+print("Calculating!!")
+
+z = 99 - y
+
+print("Third number added by me!!", z)
+
+a = int(input("Enter 4th number: "))
+
+for i in range(3):
+
+print("Calculating!!")
+
+b = 99 - a
+
+print("5th number added by me!!", b)
+
+result = x + y + z + a + b
+
+print(str(x) + "+" + str(y) + "+" + str(z) + "+" + str(a) + "+" + str(b) + "=", result)
